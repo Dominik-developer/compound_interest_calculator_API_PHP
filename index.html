@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compund interest calculator</title>
+    <link rel="stylesheet" href="styles.css" >
+</head>
+<body>
+    <div class="container">
+        <h2>Calculate compound interest</h2>
+        <form id="compundInterestForm">
+            <div class="form-group">
+                <label for="principal">Initial amount</label>
+                <input type="number" id="principal" required step="0.01" >
+            </div>
+            <div class="form-group">
+                <label for="rate">Interest rate (% per annum)</label>
+                <input type="number" id="rate" required step="0.01" >
+            </div>
+            <div class="form-group">
+                <label for="time">Time in years</label>
+                <input type="number" id="time" required step="0.01" >
+            </div>
+            <button type="submit"> Calculate</button>
+        </form>
+        <table id="resultsTable" style="display: none;">
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>Sum</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+
+    <section id="white-space"></section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
