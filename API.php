@@ -1,5 +1,5 @@
 <?php
-
+/* API for calculator */
 
 header("Content-Type: application/json");
 
